@@ -40,14 +40,25 @@ div{
     text-align:right;
 }
 
+
+
 nav,article, section{
     background-color:lightblue;
     border: 8px solid blue;
     margin:0 auto;
     padding:0;
-    height:100%;
+    height:50px;
     width:90%;
 
+}
+
+li{
+    width:calc(100%/3);
+    margin:0;
+    padding:0;
+    list-style:none;
+    float:left;
+    text-align: center;
 }
 
 p{
