@@ -13,30 +13,45 @@ header{
     margin:0 auto;
     padding:0;
     height:200px;
-    width:100%;
+    width:90%;
+    background-image: url("http://i.imgur.com/Ud9xF3V.png?1");
+    background-repeat: no-repeat;
     
 }
 div{
-    width=40%;
+    width:100%;
     height: 100%;
     margin:0 auto;
-    padding:0;
+    
+    
+    padding:45px;
     align-items: center;
 }
 
-#_header{
+#_promo1{
 
+    margin:200px;
+    padding:50px;
+    margin-top:20px;
+    
+    
+    color:blue;
+    font-size:22px;
+    text-align:right;
+}
+
+nav,article, section{
+    background-color:lightblue;
+    border: 8px solid blue;
     margin:0 auto;
     padding:0;
-    background-image: url("http://i.imgur.com/Ud9xF3V.png?1");
-    background-repeat: no-repeat;
-}
-
-nav{
-    display: block;
-    border: 3px solid blue;
-    background-color: lightblue;
-    width:100%;
+    height:100%;
+    width:90%;
 
 }
+
+p{
+    text-align: center;
+    color:blue;
+    font-size:20px;}
 
