@@ -1,4 +1,6 @@
 body{
+    margin:0 auto;
+    padding:0;
     background-color:grey;
 }
 
@@ -7,14 +9,23 @@ body{
 header{
     text-align:center;
     background-color:blue;
+    
+    
     color:black;
-    font-family:family=Slabo+27px;
-    height:30px;
+    height:200px;
+    width:100%;
+    
+}
+div{
+    width=40%;
+    height: 100%;
 }
 
-#backgroundrow{
+#_header{
 
-    color: cornsilk;
-    background-color: cornflowerblue;
+    margin:0 auto;
+    padding:0;
+    background-image: url("http://i.imgur.com/Ud9xF3V.png?1");
+    background-repeat: no-repeat;
 }
 
